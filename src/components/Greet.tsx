@@ -4,6 +4,7 @@ type GreetProps = {
   gender: boolean;
   face: unknown;
   school: any;
+  messageCount?: number
 };
 export const Greet = (props: GreetProps) => {
   return (
