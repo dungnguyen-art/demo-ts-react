@@ -6,6 +6,7 @@ import PersonList from "./components/PersonList";
 import { Button } from "./components/ButtonProps";
 import { Container } from "./components/Container";
 import { LoggedIn } from "./components/state/LoggedIn";
+import { User } from "./components/state/User";
 
 function App() {
   const personName = {
@@ -47,7 +48,8 @@ function App() {
           console.log("Button clicked");
         }}
       />
-      <LoggedIn/>
+      <LoggedIn />
+      <User name="dung" email="dung@gmail.com" />
     </div>
   );
 }
