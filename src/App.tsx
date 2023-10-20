@@ -5,6 +5,7 @@ import Person from "./components/Person";
 import PersonList from "./components/PersonList";
 import { Button } from "./components/ButtonProps";
 import { Container } from "./components/Container";
+import { LoggedIn } from "./components/state/LoggedIn";
 
 function App() {
   const personName = {
@@ -46,6 +47,7 @@ function App() {
           console.log("Button clicked");
         }}
       />
+      <LoggedIn/>
     </div>
   );
 }
